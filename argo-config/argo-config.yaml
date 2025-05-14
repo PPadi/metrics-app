@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/PPadi/metrics-app.git
     targetRevision: main
-    path: .
+    path: metrics-app-helm
     helm:
       valueFiles:
         - values.yaml
