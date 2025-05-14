@@ -25,7 +25,7 @@ spec:
               service:
                 name: {{ include "metrics-app-helm.fullname" $ }}
                 port:
-                  number: {{ .Values.service.port }}
+                  number: {{ $.Values.service.port }}
           {{- end }}
     {{- end }}
   {{- if .Values.ingress.tls }}
